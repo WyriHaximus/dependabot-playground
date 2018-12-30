@@ -1,0 +1,6 @@
+{
+    "require-dev": {
+        "api-clients/cs-fixer-config": "^1.0",
+        "api-clients/test-utilities": "^5.0"
+    }
+}
