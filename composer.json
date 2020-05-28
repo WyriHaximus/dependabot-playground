@@ -5,6 +5,6 @@
     },
     "require": {
         "wyrihaximus/list-classes-in-directory": "^1.0",
-        "react/socket": "^1.4"
+        "react/socket": "^1.0"
     }
 }
