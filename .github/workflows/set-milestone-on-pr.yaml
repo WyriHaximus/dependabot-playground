@@ -11,4 +11,4 @@ jobs:
           issue_number: ${{ github.event.pull_request.number }}
           milestone_number: 1
         env:
-          GITHUB_TOKEN: "${{ secrets.AUTH_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
