@@ -2,10 +2,10 @@ name: Set Milestone
 on:
   pull_request:
 jobs:
-  close-milestone:
+  set-milestone:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Close Milestone'
+      - name: 'Set Milestone'
         uses: "WyriHaximus/github-action-set-milestone@master"
         with:
           issue_number: ${{ github.event.pull_request.number }}
