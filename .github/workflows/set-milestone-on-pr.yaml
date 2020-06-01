@@ -1,0 +1,14 @@
+name: Set Milestone
+on:
+  pull_request:
+jobs:
+  close-milestone:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Close Milestone'
+        uses: "WyriHaximus/github-action-set-milestone@master"
+        with:
+          issue_number: ${{ github.event.pull_request.number }}
+          milestone_number: 1
+        env:
+          GITHUB_TOKEN: "${{ secrets.AUTH_TOKEN }}"
