@@ -95,16 +95,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.13.1",
+            "version": "v4.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "63a79e8daa781cac14e5195e63ed8ae231dd10fd"
+                "reference": "210577fe3cf7badcc5814d99455df46564f3c077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/63a79e8daa781cac14e5195e63ed8ae231dd10fd",
-                "reference": "63a79e8daa781cac14e5195e63ed8ae231dd10fd",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/210577fe3cf7badcc5814d99455df46564f3c077",
+                "reference": "210577fe3cf7badcc5814d99455df46564f3c077",
                 "shasum": ""
             },
             "require": {
@@ -143,7 +143,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2021-11-03T20:52:16+00:00"
+            "time": "2021-11-30T19:35:32+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1079,21 +1079,21 @@
         },
         {
             "name": "wyrihaximus/list-classes-in-directory",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/php-list-classes-in-directory.git",
-                "reference": "ed228f2a34b13a237380eee9e471b63e6c6247e7"
+                "reference": "dbab61bf456b5a69b88a7aa363b4cc6d6fea75bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-list-classes-in-directory/zipball/ed228f2a34b13a237380eee9e471b63e6c6247e7",
-                "reference": "ed228f2a34b13a237380eee9e471b63e6c6247e7",
+                "url": "https://api.github.com/repos/WyriHaximus/php-list-classes-in-directory/zipball/dbab61bf456b5a69b88a7aa363b4cc6d6fea75bc",
+                "reference": "dbab61bf456b5a69b88a7aa363b4cc6d6fea75bc",
                 "shasum": ""
             },
             "require": {
                 "php": "^8 || ^7.4",
-                "roave/better-reflection": "^4 || ^3.1 || ^2",
+                "roave/better-reflection": "^5 || ^4 || ^3.1 || ^2",
                 "wyrihaximus/constants": "^1.6"
             },
             "require-dev": {
@@ -1122,7 +1122,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-13T08:31:34+00:00"
+            "time": "2021-12-31T14:19:33+00:00"
         }
     ],
     "packages-dev": [
